@@ -1,0 +1,160 @@
+{
+	"info": {
+		"_postman_id": "b1d96fcb-54ba-49eb-b080-4ed33b834419",
+		"name": "Meli Challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "country info by ip",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/api/v1/country/ip?ip=103.83.193.0",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"country",
+						"ip"
+					],
+					"query": [
+						{
+							"key": "ip",
+							"value": "186.138.98.177",
+							"description": "Argentina",
+							"disabled": true
+						},
+						{
+							"key": "ip",
+							"value": "83.44.196.93",
+							"description": "España",
+							"disabled": true
+						},
+						{
+							"key": "ip",
+							"value": "00.12.123.123123.123",
+							"description": "Invalid",
+							"disabled": true
+						},
+						{
+							"key": "ip",
+							"value": "103.102.220.0",
+							"description": "Afghanistan",
+							"disabled": true
+						},
+						{
+							"key": "ip",
+							"value": "104.28.11.173",
+							"description": "EEUU",
+							"disabled": true
+						},
+						{
+							"key": "ip",
+							"value": "1.0.32.0",
+							"description": "China",
+							"disabled": true
+						},
+						{
+							"key": "ip",
+							"value": "103.83.193.0",
+							"description": "Venezuela"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ips saved",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/api/v1/country/ips",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"country",
+						"ips"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "closest distance",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/api/v1/country/statistics/closest",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"country",
+						"statistics",
+						"closest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "furthest distance",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/api/v1/country/statistics/furthest",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"country",
+						"statistics",
+						"furthest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "average",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/api/v1/country/statistics/average",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"country",
+						"statistics",
+						"average"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
