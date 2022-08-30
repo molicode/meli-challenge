@@ -41,3 +41,16 @@ docker build -t ip-service .
 docker run -p 8080:8080  ip-service -d
 ````
 
+
+[//]: # (docker ps)
+
+[//]: # (docker images)
+
+[//]: # (docker run)
+
+[//]: # (docker stop)
+
+[//]: # ()
+[//]: # ( url: http://localhost:8081/h2-console/)
+
+[//]: # ( url: http://localhost:8081/swagger-ui.html#/)

@@ -12,6 +12,8 @@ public class DistanceCalculator {
 
   public static final double LONGITUDE_BSAS = -58.377232;
 
+// Point Lon Lat
+
   public static double distance(final double latitude, final double longitude) {
     if ((LATITUDE_BSAS == latitude) && (LONGITUDE_BSAS == longitude)) {
       return 0;
